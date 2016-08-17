@@ -11,7 +11,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
     }, NgControl],
     template: `<div #host></div>`
 })
-export class MediumEditorComponent implements ControlValueAccessor, OnInit, OnDestroy, OnChanges {
+export class MediumEditor implements ControlValueAccessor, OnInit, OnDestroy, OnChanges {
     @Input() options: any;
     @Input() placeholder: string;
     el: ElementRef;

@@ -6,7 +6,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
     selector: 'medium-editor',
     providers: [{
         provide: NG_VALUE_ACCESSOR,
-        useExisting: forwardRef(() => MediumEditorComponent),
+        useExisting: forwardRef(() => MediumEditor),
         multi: true
     }, NgControl],
     template: `<div #host></div>`
